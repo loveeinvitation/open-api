@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      "node-input-validator@3.8.0",
+      "/Users/macbook/project/manpower-api-node"
+    ]
+  ],
+  "_from": "node-input-validator@3.8.0",
+  "_id": "node-input-validator@3.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-uDy/g6nVyWsHQjbIgw/NaRMk7s/Pb8Zw4ELCdNSZyrdAK7ND/fQ5O4wTJbtoxIA3z4lloh1OtXq6KDwYX2x9dw==",
+  "_location": "/node-input-validator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-input-validator@3.8.0",
+    "name": "node-input-validator",
+    "escapedName": "node-input-validator",
+    "rawSpec": "3.8.0",
+    "saveSpec": null,
+    "fetchSpec": "3.8.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-input-validator/-/node-input-validator-3.8.0.tgz",
+  "_spec": "3.8.0",
+  "_where": "/Users/macbook/project/manpower-api-node",
+  "author": {
+    "name": "Harcharan Singh",
+    "email": "artisangang@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bitnbytesio/node-input-validator/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jakub Nietrzeba",
+      "url": "https://github.com/gluth"
+    },
+    {
+      "name": "Sergi Baños",
+      "url": "https://github.com/SergiBanos"
+    },
+    {
+      "name": "Nitin Mehra",
+      "url": "https://github.com/cybersultan"
+    }
+  ],
+  "dependencies": {
+    "file-type": "^10.11.0",
+    "image-size": "^0.7.4",
+    "mime-types": "^2.1.24",
+    "moment": "^2.24.0",
+    "read-chunk": "^3.2.0",
+    "validator": "^10.11.0"
+  },
+  "description": "validation library for nodejs, inspired by laravel.",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/moment": "^2.13.0",
+    "@types/validator": "^10.11.1",
+    "coveralls": "^3.0.5",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^5",
+    "mocha-lcov-reporter": "^1.3.0",
+    "ncp": "^2.0.0",
+    "should": "^13.2.3"
+  },
+  "engines": {
+    "node": ">=7.6"
+  },
+  "homepage": "https://github.com/bitnbytesio/node-input-validator#readme",
+  "keywords": [
+    "validation",
+    "validator",
+    "data validation",
+    "input validation",
+    "input validator",
+    "form validation",
+    "form validator",
+    "node validator",
+    "laravel",
+    "validator for js",
+    "koa",
+    "express",
+    "file validation",
+    "image",
+    "mimes"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "node-input-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitnbytesio/node-input-validator.git"
+  },
+  "scripts": {
+    "cover": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --recursive",
+    "coveralls": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "lint": "eslint ./src",
+    "lintf": "eslint ./src --fix",
+    "test": "mocha --recursive"
+  },
+  "version": "3.8.0"
+}
