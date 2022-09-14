@@ -13,7 +13,7 @@ $ npm install  nodemon
 ```
 
 ``` bash
-$ npm install 
+$ npm install s
 ```
 
 Salin file .env.example ke .env
